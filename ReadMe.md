@@ -1,9 +1,3 @@
----
-title:
-author:
-output: html_document
----
-
 Course project ReadMe
 ========================================================
 Coursera Johns Hopkins Data Science course #3 Getting and Cleaning Data
