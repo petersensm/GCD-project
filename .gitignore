@@ -29,6 +29,7 @@ $RECYCLE.BIN/
 # ignore my output#
 ###################
 *.csv
+*.txt
 
 # ignore other versions of the .md files automatically gnerated by R #
 ###################

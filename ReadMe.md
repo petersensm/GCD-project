@@ -14,7 +14,7 @@ To fulfill the assignment we were to:
  * Uses descriptive activity names to name the activities in the data set
  * Appropriately labels the data set with descriptive variable names. 
  * Creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
-2. output and submit the tidy dataset
+2. output and submit the tidy dataset (as .txt file)
 3. write a ReadMe markdown document to describe how the code works
 4. make a Codebook markdown document that serves as a key to the variables in the tidy dataset
 
@@ -91,5 +91,5 @@ subject | activity | domain | motion | sensor | derivation | summarystatistic | 
 1        | walking   | time  | body  | acceleration | no | std | X  | 4.0  
 
 # Code:
-The script in run_analysis.R was written in R version 3.1.2 and requires the packages reshape2, plyr, stringr. It takes as input features.txt, subject_test.txt, subject_train.txt, X_test.txt, X_train.txt, y_test.txt, x_train.txt files, so for running this, the user needs to have these files in the working directory. The code combines the various files, selects features associated with mean and standard deviation, and summarizes them by cacluating their mean value by subject, activity, and feature. An option is included for splitting the *feature* variable into its components as described above. Finally, it outputs a tidy subset of this data (Tidydata.csv) into the working directory. 
+The script in run_analysis.R was written in R version 3.1.2 and requires the packages reshape2, plyr, stringr. It takes as input features.txt, subject_test.txt, subject_train.txt, X_test.txt, X_train.txt, y_test.txt, x_train.txt files, so for running this, the user needs to have these files in the working directory. The code combines the various files, selects features associated with mean and standard deviation, and summarizes them by calcuating their mean value by subject, activity, and feature. An option is included for splitting the *feature* variable into its components as described above. Finally, it outputs a tidy subset of this data (Tidydata.txt) into the working directory. 
 

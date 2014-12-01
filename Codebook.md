@@ -4,16 +4,16 @@ Coursera Johns Hopkins Data Science course #3 Getting and Cleaning Data
 ________________________________________________________
 
 # Description
-This codebook is a companion to the Tidydata.csv dataset generated for the course project. 
+This codebook is a companion to the Tidydata.txt dataset generated for the course project. 
 
-Details about the project, the original data source, and how the data were cleaned and summarized can be found in the ReadMe.md file in this repository. Similarly, the script for generating Tidydata.csv can be found in the run_analysis.R file. Further information about study design and variable calculations can be found in the ReadMe.txt that accompanies the original datasource:  
+Details about the project, the original data source, and how the data were cleaned and summarized can be found in the ReadMe.md file in this repository. Similarly, the script for generating Tidydata.txt can be found in the run_analysis.R file. Further information about study design and variable calculations can be found in the ReadMe.txt that accompanies the original datasource:  
 
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012  
 
 which can be obtained from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 # Codes
-Tinydata.csv contains 11880 obs. of  9 variables. Note, the variables domain, motion, sensor, derivation, summarystatistic, and vector were all concatenated into one variable called feature in the original dataset. The run_analysis.R script can optionally be run to maintain this convention.  
+Tinydata.txt contains 11880 obs. of  9 variables. Note, the variables domain, motion, sensor, derivation, summarystatistic, and vector were all concatenated into one variable called feature in the original dataset. The run_analysis.R script can optionally be run to maintain this convention.  
 
 **subject**        
 

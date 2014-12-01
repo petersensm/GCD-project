@@ -108,4 +108,4 @@ require(stringr)
     str(Tidydata)
 
 # 5. output
-write.csv(Tidydata, file = "Tidydata.csv", row.names = FALSE)
+write.table(Tidydata, file = "Tidydata.txt", row.names = FALSE)
